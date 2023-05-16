@@ -1,0 +1,66 @@
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.mobileNav {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    /* display: none; */
+}
+
+.closeNavBtn, .openNavBtn {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.fa-xmark {
+    font-size: 2.5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1em;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.fa-credit-card {
+    font-size: 3rem;
+}
+
+.logoText {
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+}
+
+.mobile-nav-links {
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+    margin-top: 2rem;
+}
+
+.applyBtn {
+    padding: 0.5em 1em;
+    border-radius: 2em 2em 2em 2em;
+    font-size: 1.5rem;
+    font-weight: 800;
+    border: none;
+    margin-top: 2rem;
+}
