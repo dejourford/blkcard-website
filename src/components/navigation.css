@@ -8,16 +8,28 @@ a {
 }
 
 
-.mobileNav {
+.mobileNav, .mobileNavActive {
     padding: 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    position: relative;
-    /* display: none; */
+    position: absolute;
+    left: -1500px;
+    transition: 0.3s ease-in;
+    width: 100%;
 }
+
+
+
+.mobileNavActive {
+    position: absolute;
+    left: 0;
+    transition: 0.3s ease-in;
+    z-index: 1000;
+}
+
 
 .closeNavBtn, .openNavBtn {
     border: none;
@@ -25,12 +37,15 @@ a {
     cursor: pointer;
 }
 
+
+
 .fa-xmark {
-    font-size: 2.5rem;
+    font-size: 3rem;
     position: absolute;
     top: 0;
     right: 0;
     padding: 1em;
+    display: none;
 }
 
 .logo {
@@ -42,10 +57,18 @@ a {
     font-size: 3rem;
 }
 
+.logo {
+    cursor: pointer;
+}
+
 .logoText {
     font-size: 3rem;
     font-weight: 800;
     letter-spacing: 0.1rem;
+}
+
+.fa-bars {
+    display: none;
 }
 
 .mobile-nav-links {
@@ -63,4 +86,50 @@ a {
     font-weight: 800;
     border: none;
     margin-top: 2rem;
+    cursor: pointer;
+}
+
+.mainNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 6em;
+    
+}
+
+.mainNavInactive {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 6em;
+}
+
+.main-nav-links {
+    display: flex;
+    gap: 2em;
+    font-size: 1.1rem;
+    margin-inline: auto;
+}
+
+.mainApplyBtn {
+    margin: 0;
+    padding: 0.5em 2em;
+}
+
+
+@media screen and (max-width: 1450px) {
+    .fa-bars {
+        display: block;
+        /* position: absolute;
+        right: 0; */
+        font-size: 2.5rem;
+    }
+
+    .fa-xmark {
+        display: block;
+    }
+
+    .main-nav-links, .mainApplyBtn {
+        display: none;
+    }
 }
