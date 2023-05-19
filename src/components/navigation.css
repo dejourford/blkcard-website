@@ -8,10 +8,6 @@ a {
     letter-spacing: 0.1rem;
 }
 
-a:hover {
-    text-decoration: 3px gold underline;
-    text-underline-offset: 1em;
-}
 
 .mobileNav, .mobileNavActive {
     padding: 2em;
@@ -131,6 +127,11 @@ a:hover {
     gap: 2em;
     font-size: 1.1rem;
     margin-inline: auto;
+}
+
+.main-nav-links:hover {
+    text-decoration: 3px gold underline;
+    text-underline-offset: 1em;
 }
 
 .mainApplyBtn {
