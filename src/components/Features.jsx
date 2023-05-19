@@ -45,7 +45,7 @@ export default function Features() {
                     
                     <p className="featureText">
                         Experience the most secure way of banking with BLK card and enjoy our 
-                        fraud prevention program
+                        fraud prevention program as a premium member
                     </p>
                 </div>
             </div>
