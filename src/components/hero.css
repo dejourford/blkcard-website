@@ -1,6 +1,6 @@
 .heroSection {
     height: 100vh;
-    padding: 2em;
+    padding: 4em 2em;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -10,10 +10,59 @@ h1 {
     font-size: 5rem;
 }
 
+.heroTextEmphasis {
+    font-style: italic;
+}
+
 .heroRight {
-    
+    width: 50%;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
 }
 
 .cardImage {
-    width: 50%
+    width: 60%;
+}
+
+.buttonGroup {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.applyBtn {
+    margin-top: 0em;
+}
+
+.learnMoreText {
+    font-weight: 300;
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+    cursor: pointer;
+}
+
+@media screen and (max-width:400px) {
+    .heroSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .heroText {
+        font-size: 0.9rem;
+    }
+
+    .cardImage {
+        width: 100%;
+    }
+
+    .heroRight {
+        width: 100%;
+    }
 }
