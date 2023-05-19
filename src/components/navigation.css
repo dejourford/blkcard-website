@@ -129,7 +129,7 @@ a {
     margin-inline: auto;
 }
 
-.main-nav-links:hover {
+.main-nav-links a:hover {
     text-decoration: 3px gold underline;
     text-underline-offset: 1em;
 }
@@ -140,7 +140,9 @@ a {
 }
 
 
-@media screen and (max-width: 1450px) {
+
+
+@media screen and (max-width: 1400px) {
     .fa-bars {
         display: block;
         /* position: absolute;
