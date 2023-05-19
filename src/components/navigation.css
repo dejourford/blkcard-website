@@ -16,9 +16,11 @@ a {
     justify-content: center;
     height: 100vh;
     position: absolute;
-    left: -1500px;
+    left: -2000px;
     transition: 0.3s ease-in;
     width: 100%;
+    background: black;
+    color: white;
 }
 
 
@@ -46,6 +48,7 @@ a {
     right: 0;
     padding: 1em;
     display: none;
+    color: white;
 }
 
 .logo {
@@ -69,6 +72,7 @@ a {
 
 .fa-bars {
     display: none;
+    color: white;
 }
 
 .mobile-nav-links {
@@ -94,6 +98,8 @@ a {
     align-items: center;
     justify-content: space-between;
     padding: 1em 2em;
+    color: white;
+    background: black;
     
 }
 
@@ -102,6 +108,8 @@ a {
     align-items: center;
     justify-content: space-between;
     padding: 1em 2em;
+    color: white;
+    background: black;
 }
 
 .main-nav-links {
