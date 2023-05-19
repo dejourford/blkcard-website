@@ -46,7 +46,7 @@ h1 {
 }
 
 .heroApplyBtn:hover {
-    opacity: 70%;
+    background: gold;
     transition: 0.7s;
 }
 
