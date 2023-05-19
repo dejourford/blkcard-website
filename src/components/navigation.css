@@ -93,8 +93,14 @@ a:hover {
     font-size: 1.5rem;
     font-weight: 800;
     border: none;
+    box-shadow: 0px 3px 9px rgb(255, 255, 255, 0.2);
     margin-top: 2rem;
     cursor: pointer;
+}
+
+.applyBtn:hover {
+    opacity: 70%;
+    transition: 0.7s;
 }
 
 .mainNav {

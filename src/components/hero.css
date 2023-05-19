@@ -44,6 +44,11 @@ h1 {
     cursor: pointer;
 }
 
+.heroApplyBtn:hover {
+    opacity: 70%;
+    transition: 0.7s;
+}
+
 .learnMoreText {
     font-weight: 300;
     text-decoration: underline;
