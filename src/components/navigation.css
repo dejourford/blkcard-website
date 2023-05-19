@@ -97,6 +97,7 @@ a:hover {
     box-shadow: 0px 3px 9px rgb(255, 255, 255, 0.2);
     margin-top: 2rem;
     cursor: pointer;
+    background: white;
 }
 
 .applyBtn:hover {
@@ -111,6 +112,7 @@ a:hover {
     padding: 1em 2em;
     color: white;
     background: black;
+    gap: 1em;
     
 }
 
@@ -121,6 +123,7 @@ a:hover {
     padding: 1em 2em;
     color: white;
     background: black;
+    gap: 1em;
 }
 
 .main-nav-links {
