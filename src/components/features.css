@@ -1,0 +1,147 @@
+.features {
+    padding: 6em 2em;
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 600px;
+    gap: 4em;
+}
+
+.featuresHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    gap: 1em;
+}
+
+.featureHeaderText {
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h2, h3 {
+    font-weight: 800;
+}
+
+
+
+.featuresGroup {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 30%;
+    gap: 1em;
+   
+}
+
+.featureText {
+    font-weight: 300;
+    width: 70%;
+    line-height: 1.7rem;
+}
+
+.fa-hourglass, .fa-building-columns, .fa-lock {
+    background: gold;
+    padding: 0.7em;
+    border-radius: 0.5em 0.5em 1em;
+    color: black ;
+    font-size: 1.5rem;
+    box-shadow: 0px 3px 9px rgb(255, 255, 255, 0.3);
+}
+
+
+@media screen and (max-width: 800px) {
+    .features {
+        height: fit-content;
+        display: flex;
+        gap: 2em;
+        padding: 2em 2em;
+    }
+
+    .feature {
+        display: flex;
+        align-items: center;
+    }
+    .feature, .featureText, .featuresHeader {
+        width: 100%;
+    }
+
+    .featuresGroup {
+        display: flex;
+        flex-direction: column;
+        gap: 3em;
+    }
+
+    .featureHeader {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.7rem;
+    }
+    .featureHeaderText {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .features {
+        height: fit-content;
+        display: flex;
+        padding: 6em 2em;
+        gap: 4em;
+    }
+
+    .featuresGroup {
+        display: flex;
+        flex-direction: column;
+        gap: 6em;
+    }
+
+    .featuresHeader {
+        width: 100%;
+    }
+
+    .featureHeader {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .feature {
+        width: 100%;
+    }
+
+    .featureText {
+        width: 100%;
+        text-align: center;
+    }
+
+
+}
