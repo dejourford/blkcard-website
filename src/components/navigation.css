@@ -7,6 +7,10 @@ a {
     color: inherit;
 }
 
+a:hover {
+    text-decoration: 3px underline;
+    text-underline-offset: 1em;
+}
 
 .mobileNav, .mobileNavActive {
     padding: 2em;
