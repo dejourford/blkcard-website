@@ -38,7 +38,7 @@ export default function Navigation() {
                 </ul>
 
                 <button className="applyBtn mobileApplyBtn">
-                    <a href="">Apply Now</a>
+                    Apply Now
                 </button>
             </div>
 
@@ -69,7 +69,7 @@ export default function Navigation() {
                 </ul>
 
                 <button className="applyBtn mainApplyBtn">
-                    <a href="">Apply Now</a>
+                    Apply Now
                 </button>
                 
            

@@ -9,7 +9,7 @@ a {
 }
 
 a:hover {
-    text-decoration: 3px underline;
+    text-decoration: 3px gold underline;
     text-underline-offset: 1em;
 }
 
@@ -101,8 +101,8 @@ a:hover {
 }
 
 .applyBtn:hover {
-    opacity: 70%;
-    transition: 0.7s;
+    background: gold;
+    transition: 0.4s;
 }
 
 .mainNav {
