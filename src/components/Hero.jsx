@@ -7,7 +7,7 @@ export default function Hero() {
     return (
         <div className="heroSection">
             <div className="heroLeft">
-                <h1>The revolutionary BLK card is finally here.</h1>
+                <h1>The revolutionary <span className="emphasis">BLK</span>card is finally here.</h1>
                 <p className="heroText">Apply now and become one of the very few to witness 
                     the power of BLK. <span className="heroTextEmphasis">*while supplies last*</span>
                 </p>

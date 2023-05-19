@@ -12,6 +12,10 @@ h1 {
     font-size: 3rem;
 }
 
+.emphasis {
+    color: gold;
+}
+
 .heroTextEmphasis {
     font-style: italic;
 }
