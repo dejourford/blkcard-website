@@ -26,7 +26,7 @@ export default function Navigation() {
                 
                 <div className="logo">
                     <i className="fa-solid fa-credit-card fa-rotate-270"></i>
-                    <p className="logoText">BLKcard</p>
+                    <p className="logoText"><span className="emphasis">BLK</span>card</p>
                 </div>
                 
                 <ul className="mobile-nav-links">
@@ -47,7 +47,7 @@ export default function Navigation() {
             
                 <div className="logo">
                     <i className="fa-solid fa-credit-card fa-rotate-270"></i>
-                    <p className="logoText">BLKcard</p>
+                    <p className="logoText"><span className="emphasis">BLK</span>card</p>
                 </div>
 
                 <button className="openNavBtn" onClick={showMenu}>

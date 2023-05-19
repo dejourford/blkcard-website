@@ -61,6 +61,10 @@ h1 {
     cursor: pointer;
 }
 
+.learnMoreText:hover {
+    color: gold;
+}
+
 @media screen and (max-width:950px) {
     .heroSection {
         display: flex;
