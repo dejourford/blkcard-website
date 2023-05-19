@@ -1,13 +1,13 @@
 .heroSection {
     height: 100vh;
-    padding: 4em 2em;
+    padding: 4em 4em;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 .heroTextEmphasis {
@@ -15,14 +15,14 @@ h1 {
 }
 
 .heroRight {
-    width: 50%;
-    padding: 1em;
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
 
 .cardImage {
-    width: 60%;
+    width: 80%;
 }
 
 .buttonGroup {
@@ -32,8 +32,14 @@ h1 {
     margin-top: 2em;
 }
 
-.applyBtn {
+.heroApplyBtn {
     margin-top: 0em;
+    padding: 0.5em 1em;
+    border-radius: 2em 2em 2em 2em;
+    font-size: 1.5rem;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
 }
 
 .learnMoreText {
@@ -43,7 +49,7 @@ h1 {
     cursor: pointer;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:950px) {
     .heroSection {
         display: flex;
         flex-direction: column;
@@ -66,3 +72,4 @@ h1 {
         width: 100%;
     }
 }
+

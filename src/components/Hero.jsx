@@ -12,7 +12,7 @@ export default function Hero() {
                     the power of BLK. <span className="heroTextEmphasis">*while supplies last*</span>
                 </p>
                 <div className="buttonGroup">
-                    <button className="applyBtn">Apply Now</button>
+                    <button className="heroApplyBtn">Apply Now</button>
                     <p className="learnMoreText">Learn More {rightArrow}</p>
                 </div>
                 
