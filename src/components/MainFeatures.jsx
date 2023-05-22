@@ -26,9 +26,10 @@ export default function MainFeatures() {
 
             <section className="expenseFeature">
                 <div className="expenseFeatureLeft">
-                    <h3 className="expenseFeatureHeaderText">Seamless & Instant Balance Reflection</h3>
-                    <p className="expenseFeatureText">Get your current balance as soon as a transaction 
-                    is completed. No more waiting for transactions to post before your actual balance is reflected</p>
+                    <h3 className="expenseFeatureHeaderText">Instant Transaction Tracker</h3>
+                    <p className="expenseFeatureText">Access every transaction you've ever made 
+                    as a BLKcard holder. We never delete transaction history so you can have
+                    peace of mind and added security</p>
                     <button className="applyBtn">Learn More</button>
                 </div>
                 <div className="expenseFeatureRight">
