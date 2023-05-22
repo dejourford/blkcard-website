@@ -48,9 +48,10 @@ export default function Features() {
                         fraud prevention program as a premium member
                     </p>
                 </div>
+
             </div>
 
-        
+            
         
         </section>
         

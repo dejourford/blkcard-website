@@ -1,0 +1,95 @@
+.mainFeatureSection {  
+    
+    padding: 1em;
+    color: white;
+    
+    text-align: center; 
+    
+}
+
+.mainFeatureHeaderText {
+    font-size: 3.5rem;
+}
+
+.cardImg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5em;
+    
+}
+
+.cardFeatureHeaderText {
+    color: gold;
+    font-size: 2.3rem;
+}
+
+.cardFeature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6em;
+}
+
+.cardFeatureReverse {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 6em;
+}
+
+.cardFeatureLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.cardFeatureRight {
+    width: 40%;
+}
+
+.cardFeatureText {
+    font-size: 1.5rem;
+    font-weight: 300;
+    max-width: 80%;
+    line-height: 2.5rem;
+}
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1200px) {
+    .cardImg {
+        width: 100%;
+        
+        
+    }
+  
+    
+    
+    .cardFeatureHeaderText {
+        font-size: 2rem;
+        
+    }
+
+    .cardFeatureText {
+        font-size: 1.3rem;
+        font-weight: 300;
+    }
+
+    .cardFeature {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 2em;   
+    }
+
+
+}
+
