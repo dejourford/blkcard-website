@@ -1,0 +1,30 @@
+.mainFeatureSection {  
+    position: absolute;
+    padding: 1em;
+    color: white;
+    margin: 200px auto;
+    text-align: center; 
+    left: 0;
+    right: 0;
+}
+
+.mainFeatureHeaderText {
+    font-size: 2.5rem;
+}
+
+.mainFeatureSection {
+    display: flex;
+    gap: 1em;
+}
+
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width:400px) {
+    .mainFeatureSection {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+   
+}
