@@ -5,7 +5,7 @@ import expenseImg from "../blkcard/src/assets/images/expense-tracker.jpg"
 export default [
     {
         id: 1,
-        title: 'Seamless & Instant Balance Reflection',
+        title: ' Instant Balance Reflection',
         text: `Get your current balance as soon as a transaction 
         is completed. No more waiting for transactions to post before your actual balance is reflected`,
         img: transactionImg

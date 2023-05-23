@@ -1,15 +1,4 @@
-.mainFeatureSection {  
-    
-    padding: 1em;
-    color: white;
-    
-    text-align: center; 
-    
-}
 
-.mainFeatureHeaderText {
-    font-size: 3.5rem;
-}
 
 .cardImg {
     display: block;
@@ -83,13 +72,24 @@
         font-weight: 300;
     }
 
-    .cardFeature {
+    .cardFeature, .cardFeatureReverse {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
         gap: 2em;   
     }
 
+    .cardFeatureLeft {
+        width: 90%;
+        
+    }
+    
+
 
 }
 
+@media screen and (max-width: 600px) {
+    .cardFeatureLeft {
+        width: 100%;
+    }
+}
