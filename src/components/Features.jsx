@@ -4,7 +4,7 @@ export default function Features() {
     return (
         <section className="features">
             <div className="featuresHeader">
-                <h2>BLKcard Features</h2>
+                <h2> <span className="emphasis">BLK</span>card Features</h2>
                 <p className="featureHeaderText">
                     It's pretty similar to other financial apps you've found out there.
                     However, we have multiple types of secured transactions utilizing the newest technologies. 
