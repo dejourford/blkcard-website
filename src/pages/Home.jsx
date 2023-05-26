@@ -3,7 +3,7 @@ import Hero from "../components/Hero"
 import Features from "../components/Features"
 import CardSection from "../components/CardSection"
 import Newsletter from "../components/Newsletter"
-
+import Footer from "../components/Footer"
 
 export default function Home() {
     return (
@@ -13,6 +13,7 @@ export default function Home() {
             <Features />
             <CardSection />
             <Newsletter />
+            <Footer />
         </div>
     )
 }

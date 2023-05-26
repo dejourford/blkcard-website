@@ -1,0 +1,158 @@
+footer {
+    padding: 4em 6em;
+    border-top: 1px solid rgb(213, 213, 213, 0.3);
+    transform: translateY(150px);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 6em;
+}
+
+.footerWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+li:hover {
+    text-decoration: 1px solid gold underline;
+}
+
+.fa-credit-card {
+    color: white;
+}
+
+.logoTop {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footerLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.logoText {
+    color: white;
+}
+
+.logoSubText {
+    color: white;
+    font-weight: 300;
+}
+
+.linkGroups {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10em;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.groupHeader {
+    color: gold;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
+    font-weight: 300;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1000px) {
+    footer {
+        padding: 1em;
+    }
+    
+    .footerWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .linkGroups {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        text-align: center;
+    }
+
+    .copyright {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 1em;
+    }
+}
+
+@media screen and (min-width:1001px) {
+    .footerWrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 6em;
+    }
+    
+    .footerLogo {
+        display: flex;
+        align-items: center;
+    }
+
+    .linkGroups {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3em;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .footerWrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 6em;
+    }
+    
+    .footerLogo {
+        display: flex;
+        align-items: center;
+    }
+
+    .linkGroups {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width:1450px) {
+    .footerWrapper {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .linkGroups {
+        display: flex;
+        gap: 10em;
+    }
+}
