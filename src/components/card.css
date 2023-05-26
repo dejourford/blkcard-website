@@ -18,6 +18,7 @@
     align-items: center;
     justify-content: center;
     gap: 6em;
+    padding-bottom: 4em;
 }
 
 .cardFeatureReverse {
@@ -26,6 +27,7 @@
     align-items: center;
     justify-content: center;
     gap: 6em;
+    padding-bottom: 6em;
 }
 
 .cardFeatureLeft {
