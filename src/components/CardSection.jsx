@@ -1,6 +1,5 @@
 import "./cardsection.css"
 import Card from "../components/Card"
-import Image from '../assets/images/expense-tracker.jpg'
 import data from "../../data.js"
 
 export default function CardSection() {
