@@ -1,5 +1,5 @@
-import transactionImg from "../blkcard/src/assets/images/transaction-history.jpg"
-import expenseImg from "../blkcard/src/assets/images/expense-tracker.jpg"
+import transactionImg from "./src/assets/images/transaction-history.jpg"
+import expenseImg from "./src/assets/images/expense-tracker.jpg"
 
 
 export default [
