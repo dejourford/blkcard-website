@@ -5,6 +5,7 @@ This is a Fully responsive Credit Card website made using React. This is the fir
 <br>
 -Dribbble for inspiration (Satria Nayottama Capital Finance app Landing Page)
 <h1>LESSONS LEARNED</h1>
+-how to use data files to render card info
 
 
 <h1>OPTIMIZATIONS</h1>
