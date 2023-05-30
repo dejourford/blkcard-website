@@ -10,6 +10,7 @@ export default function FeaturePageFeatures() {
     
     return (
         <div className="FeaturePageSection">
+            <h2 className="FeaturePageSectionHeader">Features</h2>
             {newcardElement}
         </div>
         
