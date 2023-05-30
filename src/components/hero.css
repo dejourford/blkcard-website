@@ -47,6 +47,7 @@ h1 {
     border: none;
     cursor: pointer;
     background: white;
+    color: black;
 }
 
 .heroApplyBtn:hover {
