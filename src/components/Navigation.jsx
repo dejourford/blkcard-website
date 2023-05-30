@@ -30,8 +30,8 @@ export default function Navigation() {
                 </div>
                 
                 <ul className="mobile-nav-links">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Features</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/features">Features</a></li>
                     <li><a href="">Payments</a></li>
                     <li><a href="">Pricing</a></li>
                     <li><a href="">Services</a></li>
@@ -55,9 +55,9 @@ export default function Navigation() {
                 </button>
 
                 <ul className="main-nav-links">
-                    <li><a href="">Home</a></li>
+                    <li><a href="/">Home</a></li>
                     <span>|</span>
-                    <li><a href="">Features</a></li>
+                    <li><a href="/features">Features</a></li>
                     <span>|</span>
                     <li><a href="">Payments</a></li>
                     <span>|</span>
