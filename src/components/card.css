@@ -54,6 +54,20 @@
 
 
 /* MEDIA QUERIES */
+@media screen and (max-width: 1199px) {
+    .cardFeatureLeft {
+        width: 100%;
+    }
+
+    .cardFeatureRight {
+        width: 70%;
+    }
+
+    .cardFeatureText {
+        max-width: 100%;
+    }
+}
+
 
 @media screen and (max-width: 1200px) {
     .cardImg {
@@ -81,17 +95,43 @@
         gap: 2em;   
     }
 
-    .cardFeatureLeft {
-        width: 90%;
-        
+    /* .cardFeatureLeft {
+        width: 100%;
     }
+
+    .cardFeatureRight {
+        width: 100%;
+    } */
     
 
 
 }
 
-@media screen and (max-width: 600px) {
+
+
+@media screen and (max-width: 1000px) {
+   
+
+    .cardFeatureRight {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    
+
+    .cardFeatureRight {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 700px) {
     .cardFeatureLeft {
         width: 100%;
     }
+
+    .cardFeatureRight {
+        width: 100%;
+    }
 }
+

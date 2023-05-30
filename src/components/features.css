@@ -109,7 +109,7 @@ h2, h3 {
     
 
     h2 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     h3 {
@@ -126,14 +126,14 @@ h2, h3 {
     .features {
         height: fit-content;
         display: flex;
-        padding: 6em 2em;
+        padding: 6em 1em;
         gap: 4em;
     }
 
     .featuresGroup {
         display: flex;
         flex-direction: column;
-        gap: 6em;
+        gap: 3em;
     }
 
     .featuresHeader {
@@ -171,14 +171,15 @@ h2, h3 {
 
 @media screen and (max-width: 1410px) {
     .features {
-        margin: -100px auto;
+        margin: 0 auto;
+        transform: translateY(100px);
     }
     
 }
 
 @media screen and (max-width: 950px) {
-    .features {
-        margin-top: 50px;
-    }
+    /* .features {
+        transform: translateY(100px);
+    } */
     
 }
