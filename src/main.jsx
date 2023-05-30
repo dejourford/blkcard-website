@@ -6,12 +6,16 @@ import {
 } from "react-router-dom";
 import "./index.css";
 import Home from "./pages/Home"
-
+import FeaturesPage from "./pages/FeaturesPage"
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+  },
+  {
+    path: "/features",
+    element: <FeaturesPage />,
   },
 ]);
 
