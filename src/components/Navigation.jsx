@@ -34,7 +34,6 @@ export default function Navigation() {
                     <li><a href="/features">Features</a></li>
                     <li><a href="/memberships">Memberships</a></li>
                     <li><a href="/cards">Cards</a></li>
-                    <li><a href="/services">Services</a></li>
                 </ul>
 
                 <button className="applyBtn mobileApplyBtn">
@@ -62,8 +61,7 @@ export default function Navigation() {
                     <li><a href="/memberships">Memberships</a></li>
                     <span>|</span>
                     <li><a href="/cards">Cards</a></li>
-                    <span>|</span>
-                    <li><a href="/services">Services</a></li>
+                    
                     
                     
                 </ul>

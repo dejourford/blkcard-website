@@ -9,7 +9,6 @@ import Home from "./pages/Home"
 import FeaturesPage from "./pages/FeaturesPage"
 import Memberships from "./pages/Memberships"
 import Cards from "./pages/Cards"
-import Services from "./pages/Services"
 
 
 const router = createBrowserRouter([
@@ -28,10 +27,6 @@ const router = createBrowserRouter([
   {
     path: "/cards",
     element: <Cards />,
-  },
-  {
-    path: "/services",
-    element: <Services />,
   },
 ]);
 
