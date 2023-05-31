@@ -7,6 +7,7 @@ import {
 import "./index.css";
 import Home from "./pages/Home"
 import FeaturesPage from "./pages/FeaturesPage"
+import Payments from "./pages/Payments"
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: "/features",
     element: <FeaturesPage />,
+  },
+  {
+    path: "/payments",
+    element: <Payments />,
   },
 ]);
 
