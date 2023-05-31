@@ -33,8 +33,8 @@ export default function Navigation() {
                     <li><a href="/">Home</a></li>
                     <li><a href="/features">Features</a></li>
                     <li><a href="/memberships">Memberships</a></li>
-                    <li><a href="">Cards</a></li>
-                    <li><a href="">Services</a></li>
+                    <li><a href="/cards">Cards</a></li>
+                    <li><a href="/services">Services</a></li>
                 </ul>
 
                 <button className="applyBtn mobileApplyBtn">
@@ -61,9 +61,9 @@ export default function Navigation() {
                     <span>|</span>
                     <li><a href="/memberships">Memberships</a></li>
                     <span>|</span>
-                    <li><a href="">Cards</a></li>
+                    <li><a href="/cards">Cards</a></li>
                     <span>|</span>
-                    <li><a href="">Services</a></li>
+                    <li><a href="/services">Services</a></li>
                     
                     
                 </ul>
