@@ -4,7 +4,7 @@
 
 .creditCard {
     color: white;
-    padding: 2em 4em;
+    padding: 2em 0em;
     width: 90%;
     margin: 0 auto;
 }
@@ -58,10 +58,6 @@
         gap: 1em;
     }
 
-    .creditCardHeader {
-        text-align: center;
-    }
-
     .creditCardImage {
         margin: 0 auto;
         width: 60%;
@@ -69,6 +65,10 @@
 
     .creditCardApplyBtn {
         width: 100%;
+    }
+
+    .offerHeader {
+        text-align: center;
     }
 }
 
