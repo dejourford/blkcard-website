@@ -32,7 +32,7 @@ export default function Navigation() {
                 <ul className="mobile-nav-links">
                     <li><a href="/">Home</a></li>
                     <li><a href="/features">Features</a></li>
-                    <li><a href="">Payments</a></li>
+                    <li><a href="/payments">Payments</a></li>
                     <li><a href="">Pricing</a></li>
                     <li><a href="">Services</a></li>
                 </ul>
@@ -59,7 +59,7 @@ export default function Navigation() {
                     <span>|</span>
                     <li><a href="/features">Features</a></li>
                     <span>|</span>
-                    <li><a href="">Payments</a></li>
+                    <li><a href="/payments">Payments</a></li>
                     <span>|</span>
                     <li><a href="">Pricing</a></li>
                     <span>|</span>
