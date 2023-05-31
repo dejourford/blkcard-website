@@ -1,0 +1,92 @@
+.creditCardImage {
+    width: 20%;
+}
+
+.creditCard {
+    color: white;
+    padding: 2em 4em;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.creditCardWrapper {
+    border-top: 3px solid white;
+    padding: 2em 0em;
+}
+
+
+.creditCardBody {
+    display: flex;
+    align-items: start;
+    gap: 3em;
+    padding: 2em 0em;
+}
+
+.creditCardHeader {
+    color: gold;
+}
+
+.offerSection, .glanceSection, .aprSection, .annualFeeSection {
+    width: 100%;
+    line-height: 1.7rem;
+}
+
+.offerHeader, .glanceHeader, .aprHeader, .annualFeeHeader {
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.offerText, .glanceText, .aprText, .annualFeeText {
+    font-weight: 300;
+}
+
+.creditCardApplyBtn {
+    margin-top: 0;
+    width: 90%;
+    font-size: 1rem;
+    padding: 1em 0em;
+    border-radius: 0.2rem;
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1400px) {
+    .creditCardBody {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .creditCardHeader {
+        text-align: center;
+    }
+
+    .creditCardImage {
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    .creditCardApplyBtn {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .creditCard {
+        padding: 1em;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .creditCard {
+        padding: 0em;
+    }
+
+    .creditCardImage {
+        width: 80%;
+    }
+
+    .creditCardHeader {
+        font-size: 2.2rem;
+    }
+}
