@@ -84,4 +84,9 @@
         width: 100%;
         padding: 2em 2em;
     }
+
+    .membershipCardWrapper:hover {
+        transform: none;
+        box-shadow: none;
+    }
 }
