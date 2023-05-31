@@ -1,4 +1,4 @@
-import heroImage from "../assets/images/card-image.png"
+import heroImage from "./src/assets/images/card-image.png"
 
 export default [
     {
