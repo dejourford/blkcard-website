@@ -24,6 +24,7 @@
 
 .creditCardHeader {
     color: gold;
+    cursor: pointer;
 }
 
 .offerSection, .glanceSection, .aprSection, .annualFeeSection {
