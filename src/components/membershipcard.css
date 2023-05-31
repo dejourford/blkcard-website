@@ -5,11 +5,11 @@
     align-items: center;
     height: 100vh;
     gap: 2em;
-    max-width: 80%;
+    max-width: 90%;
     margin: 0 auto;
 }
 
-.membershipCardWrapper {
+.membershipCard {
     padding: 2em 1em;
     color: black;
     display: flex;
@@ -19,11 +19,17 @@
     gap: 3em;
     background: white;
     border-radius: 1em;
-
     cursor: pointer;
 }
 
-.membershipCardWrapper:hover {
+.membershipCardWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+.membershipCard:hover {
     transform: translateY(-50px);
     box-shadow: 1px 1px 9px rgb(255, 217, 0, 1);
 }
@@ -54,9 +60,7 @@
     
 }
 
-.membershipCardDescription {
-    
-}
+
 
 .membershipapplyBtn {
     width: 100%;
@@ -72,21 +76,24 @@
 
 
 @media screen and (max-width: 1400px) {
+    .membershipCard {
+        width: 100%;
+        padding: 2em 2em;
+    }
+    
     .membershipCardsSection {
     display: flex;
     flex-direction: column;
     gap: 6em;
     height: 100%;
     padding: 0;
+    transform: translateY(75px);
     }
 
-    .membershipCardWrapper {
-        width: 100%;
-        padding: 2em 2em;
-    }
-
-    .membershipCardWrapper:hover {
+    .membershipCard:hover {
         transform: none;
         box-shadow: none;
     }
+
+
 }
