@@ -18,6 +18,5 @@ export default function Cards() {
            {creditCardElement}
            <Footer /> 
         </div>
-        
     )
 }
