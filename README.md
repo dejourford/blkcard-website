@@ -22,3 +22,5 @@ This is a Fully responsive Credit Card website made using React. This is the fir
 -could add sign-in functionality and user dashboard
 <br>
 -could add application with input fields
+<br>
+-I would add apply now page with input fields and maybe randomly generate an approved or rejection alert
