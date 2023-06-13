@@ -1,10 +1,10 @@
 import "./navigation.css"
-import React from "react"
-import { useState } from "react"
 
+import { useState } from "react"
+import { Link } from "react-router-dom"
 
 export default function Navigation() {
-    const [isOpen, setIsOpen] = React.useState(false)
+    const [isOpen, setIsOpen] = useState(false)
     
     const closeMenu = () => {
         console.log('closed')
@@ -30,10 +30,10 @@ export default function Navigation() {
                 </div>
                 
                 <ul className="mobile-nav-links">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/features">Features</a></li>
-                    <li><a href="/memberships">Memberships</a></li>
-                    <li><a href="/cards">Cards</a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/features">Features</Link></li>
+                    <li><Link to="/memberships">Memberships</Link></li>
+                    <li><Link to="/cards">Cards</Link></li>
                 </ul>
 
                 <button className="applyBtn mobileApplyBtn">
@@ -54,13 +54,13 @@ export default function Navigation() {
                 </button>
 
                 <ul className="main-nav-links">
-                    <li><a href="/">Home</a></li>
+                    <li><Link to="/">Home</Link></li>
                     <span>|</span>
-                    <li><a href="/features">Features</a></li>
+                    <li><Link to="/features">Features</Link></li>
                     <span>|</span>
-                    <li><a href="/memberships">Memberships</a></li>
+                    <li><Link to="/memberships">Memberships</Link></li>
                     <span>|</span>
-                    <li><a href="/cards">Cards</a></li>
+                    <li><Link to="/cards">Cards</Link></li>
                     
                     
                     
