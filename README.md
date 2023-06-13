@@ -18,6 +18,8 @@ This is a Fully responsive Credit Card website made using React. This is the fir
 -how to use index as prop to create condition for even or odd items
 <br>
 -add redirect file in public folder to fix netlify hosting issue
+<br>
+-React Router uses Link tags instead of anchor tags. Import the { Link } from "react-router-dom"
 <h1>OPTIMIZATIONS</h1>
 -could add sign-in functionality and user dashboard
 <br>
